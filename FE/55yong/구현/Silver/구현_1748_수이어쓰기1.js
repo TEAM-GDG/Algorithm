@@ -5,7 +5,6 @@ const input = fs.readFileSync(filepath).toString().trim().split("\n");
 let result = 0;
 
 for (let i = 1; i <= input; i *= 10) {
-  console.log(i, result);
   result += input - i + 1;
 }
 
