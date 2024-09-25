@@ -1,4 +1,4 @@
-package com.rohgibong.book;
+package Silver;
 
 import java.io.BufferedReader;
 import java.io.IOException;
