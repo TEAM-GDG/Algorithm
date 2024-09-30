@@ -22,10 +22,10 @@
 <br>
 
 ### 🔹 소스 코드 업로드 및 리뷰 요청 방법
-1. `fe/dev 또는 be/dev`에서 새 branch를 생성한다.
+1. `main`에서 새 branch를 생성한다.
 2. 브랜치명은 `[본인 이름]`/`[이슈 번호]`로 생성한다.
 2. 본인이 해결한 문제의 소스 코드를 **본인의 branch**에 push한다.
-3. `[본인 이름]`/`[이슈 번호]` 브랜치에서 -> **fe/dev 또는 be/dev**브랜치로 **Pull Request**를 통해 코드 리뷰를 요청한다.
+3. `[본인 이름]`/`[이슈 번호]` 브랜치에서 -> **main**브랜치로 **Pull Request**를 통해 코드 리뷰를 요청한다.
 4. 스터디원 모두에게 리뷰를 받은 후, Approve가 완료되면 Merge을 수정한다.
 
 <br>
@@ -136,7 +136,9 @@ body
 |  분류   |프론트엔드|프론트엔드|백엔드|백엔드|백엔드|백엔드 |
 |  이름   |[승헌](https://github.com/12seungheon)|[정원](https://github.com/Seo-garden)|[현동](https://github.com/lhdmir)| | | |
 | 프로필   |![승헌](https://avatars.githubusercontent.com/u/164005659?v=4)|![정원](https://avatars.githubusercontent.com/u/125368624?v=4)|![현동](https://avatars.githubusercontent.com/u/42959665?v=4)| | | |
-|  분류   |프론트엔드|프론트엔드|백엔드||| |
+|  분류   |프론트엔드|iOS|백엔드||| |
+| 기술 스택 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> | <img src="https://www.vectorlogo.zone/logos/swift/swift-icon.svg" alt="swift" width="40" height="40"/> | <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> |  |  |  |
+
 
 
 [pr-shield]: https://img.shields.io/github/issues-pr/TEAM-GDG/Algorithm?style=for-the-badge
@@ -148,30 +150,18 @@ body
 
 ## 주차별 알고리즘 주제
 - 1주차 : 구현 (재귀함수) + 시간 복잡도 + 빅오표기법 + 공간복잡도
-- 2주차 : DP
-- 3주차 : 누적합 + ( 순열 + 조합)
-- 4주차 : 트리순회, 후위순회, 전위순회, 중위순회 + 트리 + 이진트리 + 이진탐색트리
-- 5주차 : 완전탐색, 백트래킹, DFS, BFS
-- 방학 주
-- 6주차 : 라인스위핑
-- 7주차 : 비트마스킹
-- 8주차 : 그리디 + 브루트포스
-- 9주차 : 투포인터
-- 10주차 :이분탐색과 LIS
-- 11주차 : 펜윅트리 최단거리
+- 2주차 : 문자열 -> 투포인터, 슬라이딩 윈도우, 누적합
+- 3주차 : 그리디 , 브루트 포스 
+- 4주차 : 재귀,정렬, 분할정복
+- 5주차 : DP, 이진 탐색, LIS                                           
+- 6주차 : 완탐(DFS/BFS) - 스택, 큐 
+- 7주차 : 완탐 (백트래킹)
+- 8주차 : 트리 , 이진 트리
+- 9주차 : 그리디 + 브루트포스
+- 10주차 :그래프 최단경로
+- 11주차 : 세그먼트 트리 , 펜윅 트리
+- 12주차 : 수학 2
+- 13주차 : 찐 구현 
 
-## 주차별 정리
-
-### [1주차 - 구현]() : 9월 22일
-- `풀어올 문제`
-  - [백준 ](https://www.acmicpc.net/problem/1475)
-  - [백준 ](https://www.acmicpc.net/problem/1748)
-  - [백준 ](https://www.acmicpc.net/problem/12871)
-  - [백준 ](https://www.acmicpc.net/problem/20006)
-  - [백준 ](https://www.acmicpc.net/problem/3107)
-- `스터디 당일 푼 문제(9월 28일 공개)`
-  - [백준 ]()
-  - [백준 ]()
-  - [백준 ]()
 
 
