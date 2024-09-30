@@ -11,10 +11,11 @@ const M = Number(input[1]); // 갑옷을 만드는데 필요한 수
 const S = input[2].split(" ").sort((a, b) => a - b); // 재료 번호
 
 let answer = 0;
-let p1 = 0;
-let p2 = N - 1;
+let p1 = 0; // 포인터 1
+let p2 = N - 1; // 포인터 2
 
 while (p1 !== p2) {
+  // 포인터 1과 2가 만날때까지 반복
   const result = Number(S[p1]) + Number(S[p2]);
 
   if (result === M) {
