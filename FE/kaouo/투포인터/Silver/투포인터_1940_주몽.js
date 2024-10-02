@@ -7,7 +7,7 @@ const fs = require("fs");
 const filepath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
 
 // 입력을 읽고, 문자열로 변환한 뒤, 공백을 제거하고, 각 문자를 배열로 나눔
-const input = fs.readFileSync(filepath).toString().trim().split("\n");
+const input = fs.readFileSync(filepath).toString().trim().split("ㄴ\n");
 
 /* 문제 풀이 */
 
