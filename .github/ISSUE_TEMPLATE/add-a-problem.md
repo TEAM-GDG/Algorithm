@@ -2,7 +2,7 @@
 name: Add a problem
 about: 본인이 풀고 싶은 문제를 추가합니다.
 title: "[플랫폼][#문제번호] 문제_이름/난이도"
-labels: 구현
+labels: 
 assignees: ''
 
 ---
