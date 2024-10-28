@@ -68,16 +68,23 @@ public class Main {
         for (int[][] shape : tetrominos) {
             int sum = 0;
 
+            // 각 셀을 돌면서 범위에 벗어나지 않는지 확인
+            // cell = {0, 0} 이 저장
             for (int[] cell : shape) {
+                // 현재 위치(x) + 각 테트로미노의 한부분(cell[0,1])
                 int nowX = x + cell[0];
                 int nowY = y + cell[1];
 
+                // 범위가 유효한지 검사
                 if (nowX < 0 || nowX >= N || nowY < 0 || nowY >= M) {
                     break;
-                } else {
+                }
+                // 범위가 유효하다면 각 cell의 숫자를 sum에 합산
+                else {
                     sum += paper[nowX][nowY];
                 }
 
+                // maxSum 업데이트
                 maxSum = Math.max(maxSum, sum);
             }
         }
