@@ -1,6 +1,6 @@
-const fs = require("fs");
+import { readFileSync } from "fs";
 const filepath = process.platform === "linux" ? "/dev/stdin" : "FE/12seungheon/BFS,DFS/Gold/14503_로봇청소기/test.txt";
-const input = fs.readFileSync(filepath).toString().trim().split("\n");
+const input = readFileSync(filepath).toString().trim().split("\n");
 
 const [N, M] = input.shift().split(" ").map(Number);
 // 처음 로봇청소기의 위치 (r,c)
